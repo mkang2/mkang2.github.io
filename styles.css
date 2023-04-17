@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
@@ -100,4 +101,5 @@ nav ul li a:hover:after{
     color: #757575;
     margin-top: 25px;
     margin-bottom: 30px;
+
 }
