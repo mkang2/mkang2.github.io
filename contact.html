@@ -20,16 +20,19 @@
                 mjk384@rutgers.edu
                 <br> <a href = https://www.linkedin.com/in/michael-kang-626685214/ target = "_blank"> LinkedIn </a>
                 <br> <a href = https://github.com/mkang2 target = "_blank"> GitHub</a>
-                <!-- <form method="post" action="sendmail.py">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Send Message</button>
-                  </form> -->
-            </p> 
+            </p>
+            <form action="/submit_form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+                <input type="submit" value="Submit">
+            </form> 
         </div>
     </div>
 </body>
